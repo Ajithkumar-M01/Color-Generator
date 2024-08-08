@@ -1,0 +1,46 @@
+/* style.css */
+
+/* Resetting default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the heading */
+#heading {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Styling the color span */
+#color {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styling the container div */
+#wrap {
+    width: 300px; /* Adjust the width of the color square */
+    height: 300px; /* Adjust the height of the color square */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 3em auto;
+    border-radius: 50%;
+}
+
+/* Styling the button */
+#btn {
+    font-size: 18px;
+    padding: 30px 10px;
+    box-shadow: 0 0 5px 5px black;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
